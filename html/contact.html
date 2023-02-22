@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8a16ea263d.js" crossorigin="anonymous"></script>
+    <!-- Link stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="contacto">
+        <nav>
+            <div class="logo">
+                <a href="../index.html">tu<b>Mascota</b></a>
+            </div>
+            <ul>
+                <li class="submenu"><a href="perros.html"><i class="fa-solid fa-dog"></i>Perros</a>
+                    <ul class="children">
+                        <li><a href="perros.html">Comida</a></li>
+                        <li><a href="perros.html">Casetas</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="gatos.html"><i class="fa-solid fa-cat"></i>Gatos</a>
+                    <ul class="children">
+                        <li><a href="gatos.html">Comida</a></li>
+                        <li><a href="gatos.html">Camas</a></li>
+                    </ul>
+                </li>
+                <li class="submenu"><a href="pajaros.html"><i class="fa-solid fa-crow"></i>Pájaros</a>
+                    <ul class="children">
+                        <li><a href="pajaros.html">Comida</a></li>
+                        <li><a href="pajaros.html">Jaulas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="contenido-header">
+            <h1>Blog de Mascotas</h1>
+            <p>Contacto</p>
+        </div>
+    </header>  
+
+    <main class="container">
+        <h1 style="text-align: center;">Contacto</h1>
+        <p style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Si tiene cualquier duda, contáctenos rellenando el formulario.</p>
+        <div class="contact-bg"></div>
+        <form class="form">
+            <div class="form__campo">
+                <label class="form__label" for="name">Nombre</label>
+                <input class="form__input" type="text" placeholder="Tu Nombre" id="name">
+            </div>
+            <div class="form__campo">
+                <label class="form__label" for="email">E-mail</label>
+                <input class="form__input" type="email" placeholder="Tu E-Mail" id="email">
+            </div>
+            <div class="form__campo">
+                <label class="form__label" for="message">Mensaje</label>
+                <textarea class="form__input form__input__textarea" id="message"></textarea>
+            </div>
+            <div class="form__campo">
+                <input type="submit" value="Enviar" class="button">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html" class="logo">
+                    <h1 class="logo__nombre">tu<span class="logo__bold">Mascota</span></h1>
+                </a>
+                <div class="navigation">
+                    <a class="nav__text" href="perros.html"><i class="fa-solid fa-dog"></i>Perros</a>
+                    <a class="nav__text" href="gatos.html"><i class="fa-solid fa-cat"></i>Gatos</a>
+                    <a class="nav__text" href="pajaros.html"><i class="fa-solid fa-crow"></i>Pájaros</a>
+                    <a class="nav__text" href="contact.html"><i class="fa-solid fa-address-book"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="created__by">
+                <p>Todos los derechos reservados &copy;</p>
+                <div class="social-networks">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p>Diseñado por <span class="author">Arnau Rios I Buil</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
